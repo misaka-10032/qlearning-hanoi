@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="jquery.js"></script>
+		<script src="main.js"></script>
+		<script src="qlearning.js"></script>
+		<script src="hanoi.js"></script>
+	</head>
+	<div style="position: relative; display: inline-block;">
+		<canvas id="hanoi" width="600" height="200"></canvas>
+		<br/>
+		<input type="button" id="start" onclick="onStartClick()" value="开始" style="position: absolute; top: 210px; right: 10px;" />
+		<input type="button" id="back" onclick="onBackClick()" value="回退" style="display: none; position: absolute; top: 210px; right: 80px;" />
+		<input type="button" id="next" onclick="onNextClick()" value="下一步" style="display: none; position: absolute; top: 210px; right: 10px;" />
+	</div>
+	
+</html>
